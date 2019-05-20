@@ -1,12 +1,5 @@
 ---
-layout: default
+layout: aw_layout
 ---
 
-Example page
-
-
-I should be using the custom font size defined at SCSS variables
-{: .content}
-
-Hey look I am using a Bootstrap variable color!
-{: .primarycolor}
+{% include content.haml %}
